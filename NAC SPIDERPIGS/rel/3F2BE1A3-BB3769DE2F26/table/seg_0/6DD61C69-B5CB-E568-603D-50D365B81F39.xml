@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DD61C69-B5CB-E568-603D-50D365B81F39" name="PAGAMENTO">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:59:33 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PGTO_ID" id="965C20D3-4A3C-10AE-BBD8-C4DCF14CB974">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:02:31 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_PGT" id="A71FBD68-E90E-73D2-A0F5-53FFCEB95F0F">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:02:31 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_PAGAMENTO_STPGTO_ID" id="CFBF3EAC-2F55-6919-6AA5-22DFDC494A26">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:05:52 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88D5EFAF-4551-EEC3-FD49-00150B082892" referredColumn="CF637F22-0CDB-D764-4D53-029F22E4F521"/>
+</associations>
+</Column>
+<Column name="LOCACAO_LOC_ID" id="A3FF9866-DF6B-3AC8-3453-48FD7B1C6953">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:22:12 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C70EFB9-B9B7-D2BA-9A3C-6545CB39C45F" referredColumn="5679D6D0-5093-8507-9C3D-55E21F2674D8"/>
+</associations>
+</Column>
+<Column name="CLIENTE_CLIEN_ID" id="08926769-DDF9-F9B9-3218-F677E58D6A6A">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:44:03 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="959DCA5E-2CF4-0E3D-C967-E4430C195BD6" referredColumn="265D5E81-1BC8-1819-7491-200C6A888B4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1BD3040-253F-DCEE-7BAE-BA8917D82DB8" name="PAGAMENTO_PK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:02:37 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="965C20D3-4A3C-10AE-BBD8-C4DCF14CB974"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D4ED66F-F3A1-F8A5-68E2-BD4D64DF9472" name="PAGAMENTO_STATUS_PAGAMENTO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:05:52 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFBF3EAC-2F55-6919-6AA5-22DFDC494A26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD78193A-CF5A-4C25-106F-8029C040124E" name="PAGAMENTO_LOCACAO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:22:12 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3FF9866-DF6B-3AC8-3453-48FD7B1C6953"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52B6355A-4AC9-90C5-AD3F-162C6AA3497A" name="PAGAMENTO_CLIENTE_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:44:03 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08926769-DDF9-F9B9-3218-F677E58D6A6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

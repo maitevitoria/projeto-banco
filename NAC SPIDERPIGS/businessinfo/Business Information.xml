@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F2B31F2E-98C3-480A-77C8-3C468D9F4FFC">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:22:31 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

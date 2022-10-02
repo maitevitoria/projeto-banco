@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="516E80B3-8AEF-C1AB-530F-88B73951896B" mainViewID="2841C0CF-AF11-F8A7-EFEB-27EA7124D58D">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:22:30 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFADF105-65CC-7F8A-C7CE-EAF19A408547" containerWithKeyObject="FF1C3E97-2DED-3E96-D626-A2036397C08D" localFKIndex="18A8924A-E47A-7F23-3627-383EDE308799" name="LOCACAO_CARRO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:12:02 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<referredTableLongName>CARRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0DF07892-14CD-5E08-BDD3-FBB34BE7DC59</referredTableID>
+<keyObject>1E5168D7-4C98-FB8A-B166-996919853FB8</keyObject>
+<referredKeyID>1E5168D7-4C98-FB8A-B166-996919853FB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

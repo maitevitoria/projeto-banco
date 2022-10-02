@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D09D46D9-0EF8-EB77-FA53-41A814B9F57B" name="STATUS_LOCACAO">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:56:05 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STLOC_ID" id="07550A8D-F218-46D9-8A3B-1CD41D5E00BE">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:57:15 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_STLOC" id="95A05228-AD0D-59F4-F1CF-89A742B1BCDB">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:57:15 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCACAO_LOC_ID" id="2DA93DEB-E225-6799-7223-3F62A115E30F">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:14:22 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="524A6E50-25D0-724A-BAE0-3BF92FADFAF1" referredColumn="5679D6D0-5093-8507-9C3D-55E21F2674D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BC88562-C410-B126-D38A-E53B2A6C7439" name="STATUS_LOCACAO_PK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:57:15 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07550A8D-F218-46D9-8A3B-1CD41D5E00BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB511C90-A1FD-5C71-8D71-F1A88A7AED2A" name="STATUS_LOCACAO_LOCACAO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:14:22 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA93DEB-E225-6799-7223-3F62A115E30F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C906AF53-4A38-EFEB-B907-FBD77F6C5C0E" name="FUNCIONARIO">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:24:11 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FUNC_ID" id="F92EE371-BB36-8D65-9DD0-30720BE9A052">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:28:05 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CELULAR_FUNC" id="82929E80-9E94-FA34-B3A5-783AF91502E8">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:28:59 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_FUNC" id="1F1784BD-4DB7-36B9-9B74-BAE00A0BE218">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:29:15 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCAO_FUNCAO_ID" id="CD296A37-BA3A-B518-4D33-A9C53624B0AC">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:04:01 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80918FA4-C280-4D1F-C514-9C911273F22B" referredColumn="B4BD03A4-D0C2-FE82-D075-4E3A60090C6F"/>
+</associations>
+</Column>
+<Column name="LOCACAO_LOC_ID" id="F243AC10-6D6C-2739-27A6-D4227E1C153A">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:04:45 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A03FD90-5C2D-7CB4-447A-756492504E5C" referredColumn="5679D6D0-5093-8507-9C3D-55E21F2674D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7DEA76E-24E9-B946-A238-97CCAECF8C4A" name="FUNCIONARIO_PK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:28:05 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F92EE371-BB36-8D65-9DD0-30720BE9A052"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5AEA36E-466C-6FAE-5A87-68D3CEA79745" name="FUNCIONARIO_FUNCAO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:04:01 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD296A37-BA3A-B518-4D33-A9C53624B0AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F07A3E9D-0423-C7BA-5909-EB94E510DE40" name="FUNCIONARIO_LOCACAO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:04:45 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F243AC10-6D6C-2739-27A6-D4227E1C153A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="270FB93F-B814-1CF5-9654-B2FF2CE3EA75" name="CLIENTE">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:33:43 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIEN_ID" id="265D5E81-1BC8-1819-7491-200C6A888B4F">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:36:51 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDADE_CLIEN" id="C33720E8-31DE-F2C0-D87A-6D3F94D7C65D">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:36:51 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CELULAR_CLIEN" id="2CE1C86C-7CCC-2982-CBBA-9C57C3F80641">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:36:51 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_CLIEN" id="28DDCA60-9465-65A5-3D6F-BD6BE64F5480">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:36:51 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA83D63F-D57D-BB84-69DA-98A035572FF8" name="CLIENTE_PK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:36:51 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="265D5E81-1BC8-1819-7491-200C6A888B4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

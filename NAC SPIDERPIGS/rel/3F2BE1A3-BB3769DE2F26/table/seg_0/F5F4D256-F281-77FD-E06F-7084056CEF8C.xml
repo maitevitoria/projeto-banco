@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5F4D256-F281-77FD-E06F-7084056CEF8C" name="STATUS_CARRO">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:37:07 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STCARRO_ID" id="C348EA26-A100-0FE1-1DF1-FAEC67D4892B">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:39:37 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_STATUS_CARRO_STCARRO_ID</notNullConstraintName>
+</Column>
+<Column name="DESCRICAO_STCARRO" id="06AA1CD2-0717-65E8-F8DD-732D65AAAC52">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:39:37 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_STATUS_CARRO_DESCRICAO_STCARRO</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C16556D-AD04-824E-6ACF-566AB75BDEB4" name="STATUS_CARRO_PK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:39:37 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C348EA26-A100-0FE1-1DF1-FAEC67D4892B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

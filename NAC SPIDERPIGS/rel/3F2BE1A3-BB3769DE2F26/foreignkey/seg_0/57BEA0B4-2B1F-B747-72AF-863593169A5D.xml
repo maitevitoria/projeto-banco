@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57BEA0B4-2B1F-B747-72AF-863593169A5D" containerWithKeyObject="0D5A5051-32F8-C392-240C-5B70AA51CD04" localFKIndex="1FCB2E74-60B3-A250-1D3E-0D66CC9BCC0D" name="STATUS_PAGAMENTO_PAGAMENTO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:05:45 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<referredTableLongName>PAGAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DD61C69-B5CB-E568-603D-50D365B81F39</referredTableID>
+<keyObject>B1BD3040-253F-DCEE-7BAE-BA8917D82DB8</keyObject>
+<referredKeyID>B1BD3040-253F-DCEE-7BAE-BA8917D82DB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PGTO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

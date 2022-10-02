@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF1C3E97-2DED-3E96-D626-A2036397C08D" name="LOCACAO">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:49:29 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOC_ID" id="5679D6D0-5093-8507-9C3D-55E21F2674D8">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:55:03 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTINI_LOC" id="9410CA83-C1C2-455B-5FAF-111BB9921BB2">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:55:03 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTFIM_LOC" id="4EA159CE-5165-A8FB-936B-82885B750B99">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:55:03 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_LOC" id="87B614FD-5233-85BB-EBFC-51C47C24E671">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:57:39 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARRO_CAR_ID" id="A54AC978-702D-F2BF-2432-67050C960ADC">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:12:02 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFADF105-65CC-7F8A-C7CE-EAF19A408547" referredColumn="5CF33AAF-C548-D9DB-DE60-21C91261CE3C"/>
+</associations>
+</Column>
+<Column name="CLIENTE_CLIEN_ID" id="4593438B-077A-6059-4FE4-A3664521484A">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:12:51 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6C8D567-5F26-6731-3D33-975688436978" referredColumn="265D5E81-1BC8-1819-7491-200C6A888B4F"/>
+</associations>
+</Column>
+<Column name="STATUS_LOCACAO_STLOC_ID1" id="3E811CBB-307B-07F3-F3C6-C1BEB3644711">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:13:49 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="967AFF2E-72A5-24AD-3A31-A0432AE8A067" referredColumn="07550A8D-F218-46D9-8A3B-1CD41D5E00BE"/>
+</associations>
+</Column>
+<Column name="PAGAMENTO_PGTO_ID" id="F5452BA5-EB91-3BF4-9E13-218A934DE8CA">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:22:17 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54CFCB3A-31D8-7333-D1F4-9840630D2C79" referredColumn="965C20D3-4A3C-10AE-BBD8-C4DCF14CB974"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="886DF389-23D0-0F54-E462-5A7D9601D4CC" name="LOCACAO_PK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:55:03 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5679D6D0-5093-8507-9C3D-55E21F2674D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18A8924A-E47A-7F23-3627-383EDE308799" name="LOCACAO_CARRO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:12:02 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A54AC978-702D-F2BF-2432-67050C960ADC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6B7863A-7681-572A-9427-C6F89A7C1340" name="LOCACAO_CLIENTE_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:12:51 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4593438B-077A-6059-4FE4-A3664521484A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5860596-7786-2E40-6023-4FEB55AC0A6F" name="LOCACAO_STATUS_LOCACAO_FKv2">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:13:49 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E811CBB-307B-07F3-F3C6-C1BEB3644711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7DE7B01-9E1A-1378-CB96-9CA9DA039BA0" name="LOCACAO_PAGAMENTO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:22:17 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5452BA5-EB91-3BF4-9E13-218A934DE8CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

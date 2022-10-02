@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="80918FA4-C280-4D1F-C514-9C911273F22B" containerWithKeyObject="C906AF53-4A38-EFEB-B907-FBD77F6C5C0E" localFKIndex="E5AEA36E-466C-6FAE-5A87-68D3CEA79745" name="FUNCIONARIO_FUNCAO_FK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 23:04:01 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<referredTableLongName>FUNCAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B523232-1916-6CAC-7621-5C3C0B671C70</referredTableID>
+<keyObject>C8536726-E916-7BF2-28C0-62AA55D30A8D</keyObject>
+<referredKeyID>C8536726-E916-7BF2-28C0-62AA55D30A8D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FUNCAO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

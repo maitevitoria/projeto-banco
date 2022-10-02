@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B523232-1916-6CAC-7621-5C3C0B671C70" name="FUNCAO">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:30:11 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FUNCAO_ID" id="B4BD03A4-D0C2-FE82-D075-4E3A60090C6F">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:32:09 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_FUNCAO" id="0F3D44B9-9A25-9FF8-8CA4-879778D9CC2F">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:32:09 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8536726-E916-7BF2-28C0-62AA55D30A8D" name="FUNCAO_PK">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:32:09 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4BD03A4-D0C2-FE82-D075-4E3A60090C6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="3F2BE1A3-61BE-3B8D-B6DD-BB3769DE2F26" mainViewID="19FBD187-B831-8F45-A61F-3D3152EEAB70">
+<createdBy>maite</createdBy>
+<createdTime>2019-10-27 22:22:38 UTC</createdTime>
+<ownerDesignName>NAC SPIDERPIGS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
